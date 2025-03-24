@@ -16,7 +16,7 @@ measures = 5
 #on their own line):
 #1 2 3 4 2 2 3 4 3 2 3 4 4 2 3 4 5 2 3 4
 
-for measures in range(1, measures+1):
-    print(measures)
+for measure in range(1, measures+1):
+    print(measure)
     for beats in range(2, beats_per_measure+1):
         print(beats)
